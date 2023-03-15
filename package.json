@@ -1,0 +1,13 @@
+{
+  "name": "prettier-editorconfig-bug",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prettier": "prettier --write src/*.ts",
+    "prettier:check": "prettier --check src/*.ts"
+  },
+  "dependencies": {
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  }
+}
