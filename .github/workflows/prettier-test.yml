@@ -28,4 +28,7 @@ jobs:
           cache: 'pnpm'
 
       - name: Run Prettier
+        run: pnpm install
+
+      - name: Run Prettier
         run: pnpm prettier:check
