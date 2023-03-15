@@ -1,11 +1,11 @@
-name: Nightly Security Audit
+name: Prettier Test
 
 on:
   push:
     branches: [ main ]
 
 jobs:
-  prettier-linux:
+  prettier:
     strategy:
       max-parallel: 3
       fail-fast: false
